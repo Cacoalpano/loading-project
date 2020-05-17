@@ -1,2 +1,2 @@
 # loading-project
-Các  mẫu loangding phổ biến thường gặp 
+Các  mẫu loading phổ biến thường gặp 

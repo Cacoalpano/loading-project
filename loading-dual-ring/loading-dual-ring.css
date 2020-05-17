@@ -1,0 +1,32 @@
+.loading-dual-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:0px auto;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    z-index: 1000;
+    display: block;
+  }
+  
+  .loading-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid #3498db;
+    border-color: #3498db #f3f3f3 #3498db #f3f3f3;
+    animation: loading-dual-ring 1.2s linear infinite;
+  }
+  
+  @keyframes loading-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+  
+    100% {
+        transform: rotate(360deg);
+    }
+  }
